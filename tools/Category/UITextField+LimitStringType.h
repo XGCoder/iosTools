@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UITextField (LimitStringType)
-//限制字符串必须是数字类型
+/// 限制字符串必须是数字类型
 + (BOOL)validateNumber:(NSString*)number;
 @end

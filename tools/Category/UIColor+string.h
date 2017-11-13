@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (string)
-//字符串转颜色
+/// 字符串转颜色
 +(UIColor *)colorWithHexString: (NSString *) stringToConvert;
 @end
